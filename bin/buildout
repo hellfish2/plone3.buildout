@@ -1,0 +1,11 @@
+#!/home/cmalav02/virtualenv/python2.7/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/cmalav02/virtualenv/python2.7/lib/python2.7/site-packages',
+  ]
+
+import zc.buildout.buildout
+
+if __name__ == '__main__':
+    sys.exit(zc.buildout.buildout.main())
