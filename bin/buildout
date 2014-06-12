@@ -1,9 +1,11 @@
-#!/home/cmalav02/virtualenv/python2.7/bin/python
+#!/home/cmalav02/proyectos/buildout.python/python-2.4/bin/python
 
 import sys
 sys.path[0:0] = [
-  '/home/cmalav02/virtualenv/python2.7/lib/python2.7/site-packages',
-  ]
+    '/home/cmalav02/.buildout/eggs/distribute-0.6.15-py2.4.egg',
+    '/home/cmalav02/.buildout/eggs/zc.buildout-1.4.4-py2.4.egg',
+    ]
+
 
 import zc.buildout.buildout
 
